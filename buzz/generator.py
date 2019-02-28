@@ -1,4 +1,4 @@
-from __future__ import print_function
+
 import random
 
 buzz = ('continuous testing', 'continuous integration',
@@ -12,8 +12,8 @@ adverbs = ('remarkably', 'enormously', 'substantially', 'significantly',
 verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
 
 
-def sample(l, n=1):
-    result = random.sample(l, n)
+def sample(list_, n=1):
+    result = random.sample(list_, n)
     if n == 1:
         return result[0]
     return result
